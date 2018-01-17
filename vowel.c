@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
 char ch;
 printf("Enter the char");
@@ -11,5 +11,6 @@ printf("The char is vowel");
 else
 {
 printf("The char is consonant");
+  return 0;
 }
 }
